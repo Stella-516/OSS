@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    border-bottom: 3px solid #ccc;
+
+}
+
+header .inner{
+    width: 1180;
+    height: 120px;
+    margin: 0px auto;
+    position: relative;
+}
+
+header .inner h1{
+    position:absolute;
+    left: 0px;
+    bottom: 15px;
+
+}
+
+header .inner h1 a {
+    font:bold 24px/1 "arial";
+    color: coral;    
+}
+
+header .inner .util li {
+    float: left;
+}
+
+header .inner .util li a{
+    display: block;
+    font: 12px/1 "arial"
+    color:200;
+    padding: 0px 10px;
+
+}
+
+header .inner #gnb {
+    position: absolute;
+    bottom: 0px;
+    right: 0px 
+}
+
+header .inner #gnb li a {
+    display: block;
+    font: bold 15px/1 "arial";
+    color: #555;
+    padding: 20px 40px;
+    transition: all 1s;
+
+}
+figure {
+    width: 100%;
+    height: calc(100vh-120px);
+    position: relative;
+    overflow: hidden;
+    padding-top: 250px;
+
+}
+
+figure img{
+    object-fit: cover;
+    width: 30%;
+    height: 30%;
+    opacity: 10;
+    position:center ;
+}
+
+figure .inner{
+    width: 1000px;
+    margin: 0px auto;
+    position: relative;
+}
+
+figure .inner h3{
+    font: normal 40px/1 "arial";
+    color: #555;
+    margin-bottom:60px beige;
+}
+figure .inner p{
+    font: 25px/1.5 "arial";
+    color: #888;
+    margin-bottom:60px beige;
+}
+footer {
+    width: 100%;
+    padding: 100px 0px;
+    background:yellow;
+    border-top: 1px solid green;
+}
+footer .inner{
+    width:1180px;
+    margin: 0px auto;
+}
+footer .inner .upper{
+    width: 100%;
+    border-bottom: 1px solid green;
+    padding-bottom: 20px;
+}
+footer .inner .upper::after{
+    content: "";
+    display: black;
+    clear: both;
+}
+
+footer .inner .upper h1{
+    float: left;
+    font:bold 24px/1 "arial";
+    color: green;
+}
+footer .inner .upper ul{
+    float: right;
+}
+footer .inner .upper ul li{
+    float: left;
+    margin-left: 20px;
+}
+
+footer .inner .upper ul li a{
+    font:bold 14px/1 "arial";
+    color:aqua
+}
+
+footer .inner .lower{
+    width: 100%;
+    padding-top: 20px;
+}
+
+footer .inner .lower address{
+    width:100%;
+    font: 12px/1 "arial";
+    color: black
+    margin-bottom: 20px;
+}
+
+footer .inner .lower p{
+    font: 12px/1 "arial";
+    color: black;
+}
